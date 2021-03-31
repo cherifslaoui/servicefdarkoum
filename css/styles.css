@@ -1,0 +1,270 @@
+#title{
+  background-color:#3271a8;
+  color:white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  line-height:1.5;
+  font-weight:900;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+
+}
+.beaute{
+  border:1px black solid;
+  text-align:center;
+  /* padding-left:20rem;
+  padding-right:20rem; */
+}
+.content-no-margin{
+  margin-left:0;
+  margin-right:0;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+
+
+.ster{
+  color: white;
+  font-family:'font-family: 'Averia Serif Libre', cursive;
+  font-weight:bold;
+  font-size:4rem;
+}
+body{
+  font-family:'Montserrat', sans-serif;
+}
+/* navigation bar */
+.navbar-brand{
+  font-family:'Ubuntu';
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight:400;
+}
+
+/* buttons */
+
+.download-button{
+margin:5% 3% 5% 0;
+}
+.whiteme{
+  color:white;
+  text-decoration:underline;
+  font-style:italic;
+}
+.center-me-again{
+  text-align:center;
+  /* background-color: white; */
+  background-color:white;
+  border-top:4px black solid;
+  border-bottom:4px black solid;
+
+  /* align-items: center;
+  display: flex;
+  justify-content: center; */
+}
+.color-me-blue{
+  color:black;
+  font-size:140%;
+  /* font-weight:bold; */
+  /* padding-right:10rem;
+  padding-left:10rem; */
+  /* display: flex;
+ align-items: center; */
+
+}
+h3{
+  color:blue;
+  /* display: flex;
+ align-items: center; */
+}
+
+/* image */
+
+.phone-image{
+  width:90%;
+  /* transform-origin: bottom; */
+  /* transform:rotate(-25deg); */
+  margin-bottom: 3rem;
+  /* transform:scaleY(1.5); */
+  /* margin-right:3rem; */
+  margin-top:5rem;
+  transition: width .5s;
+  /* transform:rotate(25deg) translateX(40%) translateY(-18%) scale(.9); */
+  position:absolute;
+  left:2.2rem;
+  /* z-index:-1; */
+  /* top:540px; */
+  /* top:60vh;
+  right:15vw; */
+  right:10%;
+
+}
+/* .phone-image:hover{
+  width:50%;
+} */
+@media screen and (max-width: 1028px) {
+    .phone-image {
+        transform:rotate(0deg);
+        position:static;
+    }
+    #title{
+      text-align:center;
+    }
+    .testimonial-text {
+      font-weight:400;
+    }
+    .resizetotablet{
+      font-size:3vw;
+    }
+
+}
+.keber{
+  font-size:2vw;
+  text-align:center;
+}
+@media screen and (max-width: 1028px) {
+  .keber{
+    font-size:3vw;
+    text-align:center;
+  }
+}
+
+.col-lg-4{
+  text-align:center;
+  padding:5%;
+}
+
+.bold-it{
+  font-weight:bold;
+  font-family:'Montserrat', sans-serif;
+  font-size:1.5rem;
+}
+
+.font-change{
+  color:#8f8f8f;
+}
+p{
+  color:#8f8f8f;
+}
+.further-change{
+  color:#ef8172;
+  transform:scale(2);
+  /* 1.5 */
+  padding-bottom:2rem;
+  /* 1.2 */
+  padding-top:3rem;
+}
+.further-change:hover{
+  color:#ff4c68;
+  transform:scale(2);
+  /* 1.5 */
+  padding-bottom:2rem;
+  /* 1.2 */
+  padding-top:3rem;
+}
+
+/* testimonial */
+#testimonials{
+
+  text-align:center;
+  background-color:#3271a8;
+  color:white;
+  padding-top:7%;
+  box-sizing:border-box;
+  min-height:50rem;
+}
+h2{
+  font-family:'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size:3rem;
+  line-height:1.5;
+}
+.dog-image{
+  border-radius:100%;
+  width:10%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+/* hidding phone image */
+#features{
+  background-color:white;
+  position:relative;
+
+}
+
+
+
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  /* padding: 5% 25% 8%; */
+  padding:7% 15%;
+  color:white;
+  /* font-size:3.5rem;
+  line-height:1.5; */
+}
+.cta-heading{
+  /* margin-left:80px;
+  margin-right: 80px;
+  padding-bottom:30px;
+  padding-top:30px; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size:3.5rem;
+  line-height:1.5;
+}
+.unstuck-buttons{
+  /* margin-left:15px;
+  margin-right:15px; */
+}
+#footer{
+  background-color:#3271a8;
+  text-align:center;
+  /* margin-top:60px;
+  margin-bottom:60px; */
+  padding:7% 15%;
+}
+.footer-icons{
+  /* margin-right:8px;
+  margin-left:8px; */
+  margin:20px 10px;
+  transform:scale(1.2);
+  margin-bottom:3px;
+}
