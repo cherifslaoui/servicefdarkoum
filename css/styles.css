@@ -95,26 +95,41 @@ h3{
 
 .phone-image{
   width:90%;
-  /* transform-origin: bottom; */
-  /* transform:rotate(-25deg); */
   margin-bottom: 3rem;
-  /* transform:scaleY(1.5); */
-  /* margin-right:3rem; */
+
   margin-top:5rem;
-  transition: width .5s;
-  /* transform:rotate(25deg) translateX(40%) translateY(-18%) scale(.9); */
+
   position:absolute;
   left:2.2rem;
-  /* z-index:-1; */
-  /* top:540px; */
-  /* top:60vh;
-  right:15vw; */
-  right:10%;
+
 
 }
-/* .phone-image:hover{
-  width:50%;
-} */
+
+@media screen and (min-width: 1028px) {
+  .bold-it{
+    font-size:1.5rem;
+  }
+  .further-change{
+    color:#ef8172;
+    transform:scale(2);
+    /* 1.5 */
+    padding-bottom:2rem;
+    /* 1.2 */
+    padding-top:3rem;
+  }
+  .further-change:hover{
+    color:#ff4c68;
+    transform:scale(2);
+    /* 1.5 */
+    padding-bottom:2rem;
+    /* 1.2 */
+    padding-top:3rem;
+  }
+
+
+}
+
+
 @media screen and (max-width: 1028px) {
     .phone-image {
         transform:rotate(0deg);
@@ -127,10 +142,28 @@ h3{
       font-weight:400;
     }
     .resizetotablet{
-      font-size:3vw;
+      font-size:3.5vw;
+      color:white;
     }
     .font-change{
-      font-size:4vw;
+      font-size:6vw;
+    }
+    .widen{
+      font-size:5vw;
+    }
+    .widen2{
+      font-size:7vw;
+    }
+    .color-me-blue{
+      font-size:5vw;
+    }
+
+    .download-button{
+    transform:scale(1.2);
+    transform:scaleY(1.5);
+    }
+    .scalemeplease{
+      transform:scale(1.5);
     }
 
 }
@@ -140,8 +173,24 @@ h3{
 }
 @media screen and (max-width: 1028px) {
   .keber{
-    font-size:3vw;
+    font-size:4vw;
     text-align:center;
+  }
+  .keber3{
+    font-size:6vw;
+  }
+  .bold-it{
+    font-size:8vw;
+    margin-bottom:5vh;
+    margin-top:2vh;
+  }
+  .further-change{
+    color:#ef8172;
+    transform:scale(3.5);
+    /* 1.5 */
+    padding-bottom:4rem;
+    /* 1.2 */
+    padding-top:5rem;
   }
 }
 
@@ -153,7 +202,6 @@ h3{
 .bold-it{
   font-weight:bold;
   font-family:'Montserrat', sans-serif;
-  font-size:1.5rem;
 }
 
 .font-change{
@@ -162,22 +210,7 @@ h3{
 p{
   color:#8f8f8f;
 }
-.further-change{
-  color:#ef8172;
-  transform:scale(2);
-  /* 1.5 */
-  padding-bottom:2rem;
-  /* 1.2 */
-  padding-top:3rem;
-}
-.further-change:hover{
-  color:#ff4c68;
-  transform:scale(2);
-  /* 1.5 */
-  padding-bottom:2rem;
-  /* 1.2 */
-  padding-top:3rem;
-}
+
 
 /* testimonial */
 #testimonials{
