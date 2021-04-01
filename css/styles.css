@@ -6,7 +6,9 @@
 
 
 h1{
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: sans-serif;
+  color:cyan;
   font-size:3.5rem;
   line-height:1.5;
   font-weight:900;
@@ -32,8 +34,9 @@ h1{
 
 
 .ster{
-  color: white;
-  font-family:'font-family: 'Averia Serif Libre', cursive;
+  color: cyan;
+  /* font-family:'font-family: 'Averia Serif Libre', cursive; */
+  font-family:sans-serif;
   font-weight:bold;
   font-size:4rem;
 }
@@ -248,7 +251,8 @@ a{color:white;}
 }
 
 .font-change{
-  color:#8f8f8f;
+  /* color:#8f8f8f; */
+  color:black;
 }
 p{
   color:#8f8f8f;
