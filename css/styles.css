@@ -36,6 +36,8 @@ h1{
 }
 body{
   font-family:'Montserrat', sans-serif;
+  margin-right:0;
+  margin-left:0;
 }
 /* navigation bar */
 .navbar-brand{
@@ -129,7 +131,10 @@ h3{
 
 
 }
-
+.colormestp{
+  background-color:blue;
+  color:white;
+}
 
 @media screen and (max-width: 1028px) {
     .phone-image {
@@ -163,8 +168,10 @@ h3{
     .download-button{
     transform:scale(1.2);
     transform:scaleY(1.5);
-    margin-bottom:10rem;
-    margin-top:6rem;
+    }
+    .download-button2{
+      margin-bottom:10rem;
+      margin-top:6rem;
     }
     .scalemeplease{
       transform:scale(1.5);
