@@ -1,7 +1,10 @@
 #title{
   background-color:#003366;
   color:white;
+  padding-bottom:10rem;
 }
+
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size:3.5rem;
@@ -102,11 +105,13 @@ a{color:white;}
   width:90%;
   margin-bottom: 12rem;
 
-  margin-top:5rem;
+  /* margin-top:5rem; */
+  /* margin-top:10rem; */
+  margin-top:15rem;
 
   position:absolute;
   left:2.2rem;
-  top:4rem;
+  /* top:4rem; */
 
 
 }
@@ -256,7 +261,9 @@ p{
   text-align:center;
   background-color:#003366;
   color:white;
-  padding-top:7%;
+  /* padding-top:7%; */
+  padding-top:20%;
+  padding-bottom:20%;
   box-sizing:border-box;
   min-height:50rem;
 }
