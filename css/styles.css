@@ -1,5 +1,5 @@
 #title{
-  background-color:#3271a8;
+  background-color:#003366;
   color:white;
 }
 h1{
@@ -134,7 +134,7 @@ h3{
 
 }
 .colormestp{
-  background-color:blue;
+  background-color:#003366;
   color:white;
 }
 
@@ -236,7 +236,7 @@ p{
 #testimonials{
 
   text-align:center;
-  background-color:#3271a8;
+  background-color:#003366;
   color:white;
   padding-top:7%;
   box-sizing:border-box;
@@ -311,7 +311,7 @@ h2{
   margin-right:15px; */
 }
 #footer{
-  background-color:#3271a8;
+  background-color:#003366;
   text-align:center;
   /* margin-top:60px;
   margin-bottom:60px; */
