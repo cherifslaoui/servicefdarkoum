@@ -178,7 +178,24 @@ h3{
     .scalemeplease{
       transform:scale(1.5);
     }
-
+    .form{
+      font-size:4vw;
+      margin-right:0;
+      margin-left:0;
+      margin-top:0;
+      margin-bottom:0;
+      background-color:#003366;
+      color:white;
+    }
+}
+.form{
+  /* font-size:4vw; */
+  margin-right:0;
+  margin-left:0;
+  margin-top:0;
+  margin-bottom:0;
+  background-color:#003366;
+  color:white;
 }
 .keber{
   font-size:2vw;
