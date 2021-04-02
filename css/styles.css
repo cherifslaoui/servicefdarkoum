@@ -22,7 +22,11 @@
 }
 
 
-
+.yo{
+  color:cyan;
+  transform:scale(2);
+  text-align:right;
+}
 
 
 
@@ -52,6 +56,24 @@
   /* height:100vh; */
   box-sizing:border-box;
 }
+#title2{
+  /* background-color:#003366; */
+  /* background:linear-gradient(to top, #3d6ade, #6d9ef0); */
+  /* background:linear-gradient(to bottom, #3d6ade, lightblue); */
+  /* background-color:#ffffff; */
+  background-image: url(../images/double-bubble-dark.png);
+  /* background-size:cover; */
+  color:white;
+  /* padding-bottom:10rem; */
+  padding-bottom:0;
+  margin-bottom:0;
+  /* height:100vh; */
+  box-sizing:border-box;
+}
+
+
+
+
 
 .centermytext{
   text-align:center;
@@ -169,6 +191,7 @@ margin:5% 3% 5% 0;
   border-top:4px black solid;
   border-bottom:4px black solid;
 
+
   /* align-items: center;
   display: flex;
   justify-content: center; */
@@ -244,6 +267,9 @@ h3{
         position:static;
     }
     #title{
+      text-align:center;
+    }
+    #title2{
       text-align:center;
     }
     .testimonial-text {
