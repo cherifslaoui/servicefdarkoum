@@ -1,7 +1,88 @@
+
+
+#features {
+  /* width: 200px;
+  height: 200px; */
+  display: block;
+  position: relative;
+}
+
+#features::after {
+  content: "";
+  background-image: url(../images/shakinghands2.jpeg);
+  background-position:top;
+  background-size:cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #title{
-  background-color:#003366;
+  /* background-color:#003366; */
+  /* background:linear-gradient(to top, #3d6ade, #6d9ef0); */
+  /* background:linear-gradient(to bottom, #3d6ade, lightblue); */
+  /* background-color:#ffffff; */
+  background-image: url(../images/niceblack.png);
+  background-size:cover;
   color:white;
   padding-bottom:10rem;
+  /* height:100vh; */
+  box-sizing:border-box;
+}
+
+.centermytext{
+  text-align:center;
+  color:white;
+}
+
+.heyyou{
+  color:white;
+  font-weight:400;
+  font-size:1rem;
+  position:relative;
+  z-index:2;
+}
+
+
+.overpictures{
+  text-align:center;
+  background-image:url(../images/double-bubble-dark.png);
+  /* background-color: black; */
+  margin-bottom:0;
+  height:5rem;
+  color:white;
+  font-weight:bold;
+  font-size:2rem;
+  /* border-bottom: 2px cyan solid; */
+  /* border-top: 2px cyan solid; */
+  margin-bottom:0;
+  margin-top:0;
+  padding-top:2rem;
+  padding-bottom:2rem;
+
 }
 
 
@@ -14,9 +95,13 @@ h1{
   font-weight:900;
 }
 .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 3% 15% 2%;
 
 
+}
+.featme{
+  /* border-top: 3px solid black;
+  border-bottom: 3px solid black; */
 }
 .beaute{
   border:1px black solid;
@@ -77,7 +162,10 @@ margin:5% 3% 5% 0;
 .center-me-again{
   text-align:center;
   /* background-color: white; */
-  background-color:white;
+  /* background-color:white; */
+  background-image:url(../images/double-bubble.png);
+  background-size:auto;
+
   border-top:4px black solid;
   border-bottom:4px black solid;
 
@@ -100,7 +188,7 @@ h3{
   /* display: flex;
  align-items: center; */
 }
-a{color:white;}
+/* a{color:white;} */
 
 /* image */
 
@@ -139,7 +227,9 @@ a{color:white;}
     /* 1.2 */
     padding-top:3rem;
   }
-
+  h2{
+    line-height:1.5;
+  }
 
 }
 .colormestp{
@@ -163,7 +253,7 @@ a{color:white;}
       color:white;
     }
     .font-change{
-      font-size:6vw;
+      font-size:5vw;
     }
     .widen{
       font-size:5vw;
@@ -175,7 +265,6 @@ a{color:white;}
       font-size:5vw;
       line-height:2;
     }
-
     .download-button{
     transform:scale(1.2);
     transform:scaleY(1.5);
@@ -219,7 +308,7 @@ a{color:white;}
     font-size:6vw;
   }
   .bold-it{
-    font-size:8vw;
+    font-size:7vw;
     margin-bottom:5vh;
     margin-top:2vh;
   }
@@ -237,6 +326,10 @@ a{color:white;}
     padding-top:6rem;
 
 
+  }
+  h2{
+
+    line-height:2;
   }
 }
 
@@ -263,20 +356,27 @@ p{
 #testimonials{
 
   text-align:center;
-  background-color:#003366;
+  /* background-color:#003366; */
+  /* background-color:white; */
+  /* background:linear-gradient(to top, #3d6ade, #6d9ef0); */
+  /* background:linear-gradient(to bottom, #3d6ade, lightblue); */
+  background-image: url(../images/double-bubble-dark.png);
+  background-size:repeat;
   color:white;
-  /* padding-top:7%; */
-  padding-top:7%;
-  padding-bottom:1%;
+
+  /* padding-top:10%;
+  padding-bottom:10%; */
+
+  padding-top:0;
+  padding-bottom:0;
   box-sizing:border-box;
-  /* min-height:50rem; */
-  min-height:60rem;
+
+  min-height:58rem;
 }
 h2{
   font-family:'Montserrat', sans-serif;
   font-weight:bold;
-  font-size:3rem;
-  line-height:1.5;
+  font-size:2.5rem;
 }
 .dog-image{
   border-radius:100%;
@@ -310,12 +410,17 @@ h2{
 
 /* hidding phone image */
 #features{
-  background-color:white;
-  position:relative;
-
+  /* background-color:white; */
+  /* background-image: url(../images/homeservices.jpeg);
+  background-size:content;
+  background-position:center;
+  position:relative; */
 }
 
-
+.segher{
+  max-width:50%;
+  max-height:50%;
+}
 
 #cta{
   background-color:#ff4c68;
@@ -341,11 +446,15 @@ h2{
   margin-right:15px; */
 }
 #footer{
-  background-color:#003366;
+  /* background-color:#003366; */
+  /* background:linear-gradient(to top, #3d6ade, #6d9ef0); */
+  background-image: url(../images/double-bubble-dark.png);
+  background-size:content;
   text-align:center;
   /* margin-top:60px;
   margin-bottom:60px; */
-  padding:7% 15%;
+  padding:3% 15%;
+  border-top:3px black solid;
 }
 .footer-icons{
   /* margin-right:8px;
