@@ -233,7 +233,8 @@ h3{
 
 }
 .colormestp{
-  background-color:#003366;
+  background-image:url(../images/double-bubble-dark.png);
+  background-size: auto;
   color:white;
 }
 
