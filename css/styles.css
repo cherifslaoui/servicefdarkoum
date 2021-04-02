@@ -3,15 +3,13 @@
 #features {
   /* width: 200px;
   height: 200px; */
-
-  /* display: block; */
-  /* position: relative; */
+  display: block;
+  position: relative;
 }
 
-/* #features::after {
+#features::after {
   content: "";
   background-image: url(../images/shakinghands2.jpeg);
-
   background-position:top;
   background-size:cover;
   opacity: 0.4;
@@ -21,19 +19,8 @@
   right: 0;
   position: absolute;
   z-index: -1;
-} */
-#features{
-  background-image: url(../images/niceblack.png);
-  /* background-color:black; */
-  color:white;
 }
 
-.backgroundme{
-  background-image: url(../images/niceblack.png);
-  /* background-color:black; */
-  color:white;
-  margin-bottom:0;
-}
 
 .yo{
   color:cyan;
@@ -385,8 +372,7 @@ h3{
 
 .font-change{
   /* color:#8f8f8f; */
-  /* color:black; */
-  color:white;
+  color:black;
 }
 p{
   color:#8f8f8f;
