@@ -243,7 +243,7 @@ h3{
 
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 990px) {
   .bold-it{
     font-size:1.5rem;
   }
@@ -274,7 +274,7 @@ h3{
   color:white;
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 990px) {
     .phone-image {
         transform:rotate(0deg);
         position:static;
@@ -339,7 +339,7 @@ h3{
   font-size:2vw;
   text-align:center;
 }
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 990px) {
   .keber{
     font-size:4vw;
     text-align:center;
