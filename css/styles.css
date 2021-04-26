@@ -86,7 +86,10 @@
 
 
 
-
+.introduction-to-site{
+  background-image:url(../images/double-bubble.png);
+    background-size:auto;
+}
 
 .centermytext{
   text-align:center;
